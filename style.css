@@ -334,10 +334,6 @@ nav{
     background-color: #ffffff;
     box-sizing: border-box;
 }
-
-.form-input::placeholder {
-    color: #000000;
-}
 .contact-submit-button {
     background-color: #4E47FF;
     color: #ffffff;
