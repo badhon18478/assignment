@@ -274,4 +274,83 @@ nav{
     font-size: 14px;
     color: #999;
 }
+/* Contact Section Styles */
+.contact-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 100px 40px; 
+    gap: 100px;
+}
 
+.contact-left {
+    max-width: 528px;
+    height: 232px;
+    width: 100%;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.contact-heading {
+    font-size: 70px;
+    font-weight: 800;
+    color: #000000;
+    margin: 0;
+}
+
+.contact-right {
+    padding: 40px;
+    margin-right: 60px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px 18px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.form-input::placeholder {
+    color: #000000;
+}
+.contact-submit-button {
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.contact-submit-button:hover {
+    background-color: #5200cc;
+}
